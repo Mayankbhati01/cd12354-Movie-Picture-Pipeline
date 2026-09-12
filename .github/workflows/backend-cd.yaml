@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - 'starter/backend/**'
-
   workflow_dispatch:
 
 permissions:
@@ -18,7 +17,6 @@ env:
   EKS_CLUSTER_NAME: cluster
 
 jobs:
-
   lint:
     name: Backend Lint
     runs-on: ubuntu-latest
